@@ -1,14 +1,14 @@
 import DataObject.RegistrationData;
+import PageObject.RegistrationPage;
 import StepObject.RegistrationSteps;
 import Utilis.ChromeRunner;
-import com.codeborne.selenide.WebDriverRunner;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class RegistrationPage extends ChromeRunner implements RegistrationData {
+public class RegistrationPageTest extends ChromeRunner implements RegistrationData, RegistrationPage {
     RegistrationSteps steps = new RegistrationSteps();
 
     @Test
@@ -31,7 +31,17 @@ public class RegistrationPage extends ChromeRunner implements RegistrationData {
                 .accountCreate()
                 .continueBtnClick()
                 .accountDeleteBtn();
-        String currentUrl = WebDriverRunner.getWebDriver().getCurrentUrl();
-        Assert.assertEquals(BASEURL, currentUrl, "Verify if base url and last page url is same");
+        Assert.assertTrue(authReg.isDisplayed(), "Verify if account deleted successfully");
+    }
+
+    @Test
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Negative test case for registration with existing email")
+    public void registrationWithExistingEmail() {
+        steps
+                .goToRegistration()
+                .nameInput(fName)
+                .emailInput(existingEmail)
+                .clickSignUp();
     }
 }

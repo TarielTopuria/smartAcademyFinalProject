@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Automation Suite" verbose="1" thread-count="1" parallel="tests">
-    <test name="registrationUsingChrome" parallel="tests">
+<suite name="automationexercise.com Test Suite" verbose="1" thread-count="1" parallel="tests">
+    <test name="automationexercise.com Registration Page" parallel="tests">
         <classes>
-            <class name="registration.SuccessfulUserRegistration"/>
+            <class name="RegistrationPageTest"/>
+        </classes>
+    </test>
+    <test name="automationexercise.com Login Page" parallel="tests">
+        <classes>
+            <class name="LoginPageTest"/>
+        </classes>
+    </test>
+    <test name="automationexercise.com Product review and adding to cart" parallel="tests">
+        <classes>
+            <class name="ProductTest"/>
         </classes>
     </test>
 </suite>

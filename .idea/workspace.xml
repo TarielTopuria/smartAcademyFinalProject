@@ -4,14 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c6d3bac-a372-4558-ba19-44de5f606322" name="Changes" comment="" />
+    <list default="true" id="5c6d3bac-a372-4558-ba19-44de5f606322" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataObject/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataObject/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataObject/LoginData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataObject/LoginData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataObject/ProductData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataObject/ProductData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataObject/RegistrationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataObject/RegistrationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepObject/LoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepObject/LoginPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepObject/ProductSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepObject/ProductSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepObject/RegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepObject/RegistrationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilis/ChromeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilis/ChromeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JPhUxFTT79fZE46lWfiJ6pmM0m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,12 +49,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TTopuria/IdeaProjects/smartAcademyFinalProject&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TTopuria\IdeaProjects\smartAcademyFinalProject" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Utilis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/TTopuria/IdeaProjects/smartAcademyFinalProject/testng.xml">
+    <configuration name="C:/Users/TTopuria/IdeaProjects/smartAcademyFinalProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="smartAcademyFinalProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="smartAcademyFinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.loginWithIncorrectPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="smartAcademyFinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
+      <option name="METHOD_NAME" value="loginWithIncorrectPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.addProductToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="smartAcademyFinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="METHOD_NAME" value="addProductToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.addReview" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="smartAcademyFinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="METHOD_NAME" value="addReview" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/TTopuria/IdeaProjects/smartAcademyFinalProject/testng.xml" />
+        <item itemvalue="TestNG.ProductTest.addProductToCart" />
+        <item itemvalue="TestNG.ProductTest.addReview" />
+        <item itemvalue="TestNG.LoginPageTest.loginWithIncorrectPassword" />
+        <item itemvalue="TestNG.LoginPageTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
